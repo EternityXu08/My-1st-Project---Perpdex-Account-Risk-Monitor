@@ -1,0 +1,6 @@
+requests
+python-dotenv
+pyyaml
+telebot
+pillow  # 用于生成图片
+apscheduler  # 定时任务

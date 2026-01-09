@@ -1,0 +1,17 @@
+exchanges:
+  grvt:
+    auth_url: "https://edge.grvt.io/auth/api_key/login"
+    base_url: "https://trades.grvt.io/full/v1"
+    endpoints:
+      summary: "account_summary"
+      positions: "positions"
+      open_orders: "open_orders"
+      fills: "fill_history"
+  paradex:
+    base_url: "https://api.prod.paradex.trade/v1"
+    public_markets: "markets"   # 用于获取所有合约的 mark_price
+    endpoints:
+      summary: "account/summary"
+      positions: "positions"
+      open_orders: "open_orders"
+      fills: "fills"
